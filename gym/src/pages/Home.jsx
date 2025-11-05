@@ -38,14 +38,15 @@ function Home() {
 
         {/* Content */}
         <div className="relative z-10 max-w-2xl flex flex-col items-center space-y-6">
-          <h1 className="text-5xl font-extrabold drop-shadow-lg">We are Cult</h1>
+          <h1 className="text-5xl font-extrabold drop-shadow-lg">We are Pulse</h1>
           <p className="text-xl drop-shadow-md">
             A fitness movement that is worth breaking a sweat for. Join us to
             transform your body and mind.
           </p>
-          <button className="rounded-lg bg-amber-600 hover:bg-amber-700 px-6 py-3 text-xl font-semibold shadow-lg transition">
+          <a href="/Exercise"><button className="rounded-lg bg-amber-600 hover:bg-amber-700 px-6 py-3 text-xl font-semibold shadow-lg transition"
+          >
             Explore Exercises
-          </button>
+          </button></a>
           <blockquote className="italic text-amber-300 mt-6 drop-shadow-md max-w-md">
             "Push yourself because no one else is going to do it for you."
           </blockquote>

@@ -7,28 +7,28 @@ const exercises = [
     name: "Squats",
     description:
       "Strengthen your legs and glutes with proper squats. Great for overall power.",
-    img: "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=400&q=80",
+    img: "squat.jpg",
   },
   {
     id: 2,
     name: "Deadlifts",
     description:
       "Build core strength and back muscles. Perfect for total body conditioning.",
-    img: "https://images.unsplash.com/photo-1598970654293-6c3ee61b95dd?auto=format&fit=crop&w=400&q=80",
+    img: "deadlift.jpg",
   },
   {
     id: 3,
     name: "Bench Press",
     description:
       "Improve your chest and arm strength with controlled bench press reps.",
-    img: "https://images.unsplash.com/photo-1598970652335-6d1ee797e8ae?auto=format&fit=crop&w=400&q=80",
+    img: "benchpress.jpg",
   },
   {
     id: 4,
     name: "Pull-ups",
     description:
       "Enhance your upper body and grip strength with pull-ups.",
-    img: "https://images.unsplash.com/photo-1598970518516-8d0be6f13e74?auto=format&fit=crop&w=400&q=80",
+    img: "pullups.jpg",
   },
 ];
 
@@ -48,6 +48,7 @@ function Exercise() {
         </header>
 
         {/* Exercises Grid */}
+        <a href="/askgpt">
         <section className="grid grid-cols-1 md:grid-cols-2 gap-10  mx-auto">
           {exercises.map(({ id, name, description, img }) => (
             <div
@@ -57,7 +58,7 @@ function Exercise() {
               <img
                 src={img}
                 alt={name}
-                className="w-full h-48 object-cover"
+                className="w-full h-60 object-cover"
                 loading="lazy"
               />
               <div className="p-6">
@@ -67,6 +68,7 @@ function Exercise() {
             </div>
           ))}
         </section>
+        </a>
       </div>
     </>
   );

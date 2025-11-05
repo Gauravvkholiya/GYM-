@@ -3,6 +3,9 @@ import Navbar from "../components/Navbar";
 import Footer from "./Footer";
 
 function Contact() {
+  const handleSubmit=()=>{
+    alert("Thanks for the Feedback. We will get back to you soon.");
+  }
   return (
     <>
       <Navbar />
@@ -56,6 +59,7 @@ function Contact() {
           </div>
 
           <button
+            onClick={handleSubmit}
             type="submit"
             className="w-full bg-amber-600 hover:bg-amber-700 text-gray-900 font-bold py-3 rounded-md transition"
           >

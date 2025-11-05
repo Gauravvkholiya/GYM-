@@ -10,7 +10,7 @@ function About() {
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-amber-100 px-6 py-16 md:px-20 flex flex-col  mx-auto">
         {/* Page Title */}
         <h1 className="text-6xl font-extrabold mb-12 text-center md:text-left drop-shadow-xl relative inline-block">
-          About <span className="text-amber-400">CultGym</span>
+          About <span className="text-amber-400">Pulse</span>
           <span className="absolute left-0 -bottom-3 w-20 h-1 bg-amber-400 rounded-full"></span>
         </h1>
 
@@ -23,7 +23,7 @@ function About() {
                 Our Mission
               </h2>
               <p className="text-gray-300 leading-relaxed">
-                CultGym is dedicated to building a supportive community where
+                Pulse is dedicated to building a supportive community where
                 fitness is more than just a hobby — it’s a lifestyle. We empower
                 you to reach your goals through tailored programs, expert
                 guidance, and motivation.
@@ -36,7 +36,7 @@ function About() {
               </h2>
               <p className="text-gray-300 leading-relaxed">
                 Fitness is about overcoming challenges and unlocking your
-                potential. At CultGym, we promote balance, strength, and
+                potential. At Pulse, we promote balance, strength, and
                 perseverance, ensuring you stay inspired throughout your fitness
                 journey.
               </p>
@@ -46,7 +46,7 @@ function About() {
           {/* Right Image */}
           <div className="md:w-1/2 rounded-lg overflow-hidden shadow-lg border border-amber-600 hover:shadow-amber-500 transition duration-300">
             <img
-              src="https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=800&q=80"
+              src="about2.jpg"
               alt="fitness motivation"
               className="w-full object-cover h-full max-h-[480px]"
             />

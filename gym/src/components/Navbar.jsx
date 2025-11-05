@@ -32,23 +32,23 @@ function Navbar() {
       {/* Logo Section */}
       <div className="flex items-center space-x-3">
         <img
-          src="x.jpg" // replace with your actual logo
-          alt="gym-logo"
+          src="gym logo.jpg" // replace with your actual logo
+          alt="Pulse"
           className="w-10 h-10 object-contain rounded-full border-2 border-amber-500"
         />
         <h1 className="text-amber-400 text-2xl font-extrabold tracking-wide select-none">
-          CultGym
+          Pulse
         </h1>
       </div>
 
       {/* Navigation Links */}
       <div className="hidden md:flex space-x-8 text-amber-200 font-semibold items-center">
         {[
-          { path: "/", label: "Home" },
-          { path: "/contact", label: "Contact" },
+          
           { path: "/exercise", label: "Exercise" },
-          { path: "/about", label: "About" },
           { path: "/askgpt", label: "Ask" },
+          { path: "/about", label: "About" },
+          { path: "/contact", label: "Contact" },
         ].map(({ path, label }) => (
           <NavLink
             key={path}
